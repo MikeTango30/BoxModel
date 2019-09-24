@@ -1,7 +1,21 @@
 .container {
 	width: 70%;
+}
+
+.margin-zero-auto {
 	margin: 0 auto;
 }
+
+.half-width {
+	width: 50%;
+}
+
+			/*COLORS*/
+.grey {
+	color:	#777777;
+}
+
+			/*FONTS*/
 
 p {
 	font-family: 'Open Sans', sans-serif;	
@@ -11,39 +25,30 @@ h1, h2, h3, h4 {
 	font-family: 'Lato', sans-serif;
 }
 
-h1 {
-	width: 50%;
-	margin: 0 auto;
+			/*HEADER*/
+
+header h1 {
 	font-size: 4rem;
 	text-align: center;
 }
 
-.header-images {
-	width: 50%;
-	margin: 0 auto;
+header p {
+	padding: 15px;
+	border-top: 5px double #777777;
+	border-bottom: 5px double #777777;
+	text-align: center;
 }
 
 .header-images img {
 	display: inline-block;
 }
 
-header p {
-	padding: 15px;
-	border-top: 5px double #bbc0c7;
-	border-bottom: 5px double #bbc0c7;
-	text-align: center;
-}
+			/*ARTICLES*/
 
 section article {
 	display: inline-block;
-	content: justify;
+	vertical-align: top;
 	width: 24.5%;
-}
-
-i {
-	padding: 5px;
-	color: #bbc0c7;
-	font-size: 0.7em;
 }
 
 article a {
@@ -51,10 +56,14 @@ article a {
 	text-decoration: none;
 }
 
+.fa-angle-double-right {
+	padding: 5px;
+	font-size: 0.7em;
+}
+
+			/*FOOTER*/
+
 footer {
-	width: 90%;
-	margin: 0 auto;
-	color:  #bbc0c7;
 	text-align: center;
 }
 
